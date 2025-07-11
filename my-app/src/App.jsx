@@ -8,7 +8,7 @@ function App() {
   return (
     <div className='h'>
       <DecryptedText
-      text='Hello, welcome to my website my name is ishaan'
+      text='Hello, welcome to my website my name is Ishaan'
       speed={40}
       maxIterations={10}
       animateOn='view'
