@@ -1,7 +1,16 @@
 .h {
-  text-align: center;
-  font-size: large;
-  top: 0%;
+
+ width: 50%;
+  margin: 0 auto;
+  text-align: left;
   padding-top: 10%;
+  
+}
+
+.Link {
+  margin: auto;
+  width: 50%;
+  padding-top: 2%;
+  text-align: center;
 }
 

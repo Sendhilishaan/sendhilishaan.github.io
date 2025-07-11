@@ -1,22 +1,40 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import './App.css'
 import DecryptedText from './assets/DecryptedText'
 
 function App() {
 
   return (
-    <div className='h'>
-      <DecryptedText
-      text='Hello, welcome to my website my name is Ishaan'
-      speed={40}
-      maxIterations={10}
-      animateOn='view'
-      revealDirection='start'
-      sequential={true}
+    <div>
+      <div className='h'>
+        <DecryptedText
+        text='Hello, my name is Ishaan!'
+        speed={40}
+        maxIterations={10}
+        animateOn='view'
+        revealDirection='start'
+        sequential={true}
 
-      />
+        />
+        <br/>
+        <DecryptedText 
+        text='I am an incoming second year student at UofT'
+        speed={40}
+        maxIterations={10}
+        animateOn='view'
+        revealDirection='start'
+        sequential={true}
+        />
+        <br/>
+      </div>
+      <div className='Link'>
+        <a href="mailto:ishaansendhil@gmail.com">email</a> {/* fix this link bruh*/}
+        <a>hi</a>
+      </div>
+      
+
     </div>
+
   )
 }
 
