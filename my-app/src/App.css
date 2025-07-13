@@ -1,16 +1,37 @@
 .h {
-
- width: 50%;
+  font-family: sans-serif;
+  width: 50%;
   margin: 0 auto;
   text-align: left;
   padding-top: 10%;
+  font-size:x-large;
   
 }
 
-.Link {
+.linkdiv {
+  font-family: sans-serif;
   margin: auto;
   width: 50%;
   padding-top: 2%;
-  text-align: center;
+  text-align: left;
+  display: flex;
+  gap: 10px;
 }
 
+.links {
+  color: whitesmoke;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration:none;
+  color: grey
+  
+}

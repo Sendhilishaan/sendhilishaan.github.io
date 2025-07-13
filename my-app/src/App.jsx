@@ -8,7 +8,7 @@ function App() {
     <div>
       <div className='h'>
         <DecryptedText
-        text='Hello, my name is Ishaan!'
+        text='Hello, my name is Ishaan.'
         speed={40}
         maxIterations={10}
         animateOn='view'
@@ -18,7 +18,7 @@ function App() {
         />
         <br/>
         <DecryptedText 
-        text='I am an incoming second year student at UofT'
+        text='Welcome to my personal website!'
         speed={40}
         maxIterations={10}
         animateOn='view'
@@ -27,9 +27,13 @@ function App() {
         />
         <br/>
       </div>
-      <div className='Link'>
-        <a href="mailto:ishaansendhil@gmail.com">email</a> {/* fix this link bruh*/}
-        <a>hi</a>
+      
+      <div className='linkdiv'>
+        
+        <a className='links' href="mailto:ishaansendhil@gmail.com" target='_blank'>email</a> {/* fix this link bruh*/}
+        <a className='links' href='https://github.com/Sendhilishaan' target='_blank'>github</a>
+        <a className='links' href='https://www.linkedin.com/in/ishaan-sendhil-0990a2210/' target='_blank'>linkedin</a>
+      
       </div>
       
 
