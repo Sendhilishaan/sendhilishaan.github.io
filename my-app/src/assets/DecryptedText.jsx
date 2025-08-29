@@ -6,6 +6,7 @@ const styles = {
     display: 'block',
     whiteSpace: 'pre-wrap',
     textAlign: 'left',
+    minWidth: 'calc(1ch * 32)', // 32 is the max text length, adjust as needed
   },
   srOnly: {
     position: 'absolute',
