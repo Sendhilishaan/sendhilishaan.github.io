@@ -1,11 +1,24 @@
 import { useState } from 'react'
 import './App.css'
 import DecryptedText from './assets/DecryptedText'
+import MagnetLines from './assets/MagneticLines';
 
 function App() {
 
   return (
     <div>
+
+      <MagnetLines
+          rows={9}
+          columns={9}
+          containerSize="60vmin"
+          lineColor="tomato"
+          lineWidth="0.8vmin"
+          lineHeight="5vmin"
+          baseAngle={0}
+          style={{ margin: "2rem auto" }}
+        />
+
       <div className='h'>
         <DecryptedText
         text='Hello, my name is Ishaan.'
@@ -17,6 +30,7 @@ function App() {
 
         />
         <br/>
+
         <DecryptedText 
         text='Welcome to my personal website!'
         speed={40}
