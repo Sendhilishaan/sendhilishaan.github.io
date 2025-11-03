@@ -3,3 +3,19 @@
     color: whitesmoke;
     font: small-caps;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  overflow: hidden;
+}
