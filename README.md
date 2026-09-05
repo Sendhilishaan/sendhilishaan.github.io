@@ -14,6 +14,8 @@ A small static personal website. Plain HTML and CSS; the only browser JavaScript
 
 The name is static ASCII text in each page header, with preserved whitespace and a screen-reader text equivalent. It uses the Crawford2 FIGlet style (Rowan Crawford; FIGlet conversion by Kent Nassen; Crawford2 update by PAT or JK), from https://github.com/xero/figlet-fonts/blob/main/Crawford2.flf. No font library or extra browser script is required.
 
+Each section has its own name style: About uses Rectangles (David Villegas), Projects uses Graceful (Mikhael Goikhman), Photos uses Bulbhead (Jef Poskanzer), and Music uses Wavescape (SCA). The first three font definitions come from https://github.com/xero/figlet-fonts; Wavescape comes from https://github.com/patorjk/figlet.js/blob/main/fonts/Wavescape.flf. The homepage keeps Crawford2. Each heading has its own responsive size limit to preserve its spacing on small screens.
+
 ## Preview
 
 Open `index.html` directly, or use Node.js 18+:
