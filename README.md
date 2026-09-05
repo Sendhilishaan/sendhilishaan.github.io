@@ -7,6 +7,8 @@ A small static personal website. Plain HTML and CSS; the only browser JavaScript
 - `index.html`: name and contact links.
 - `about/index.html`: replace “More soon.” with your bio.
 - `projects/index.html`: replace “More soon.” with your projects.
+- `photos/index.html`: add your photos.
+- `music/index.html`: add your music.
 - `styles.css`: layout and colors (`--blue` controls the heading color).
 - `clock.js`: date and time in `America/Toronto`, including daylight saving time.
 
