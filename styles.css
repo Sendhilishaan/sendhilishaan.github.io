@@ -19,15 +19,21 @@ body { margin: 0; }
 .masthead { text-align: center; }
 .name {
   margin: 0;
+  width: max-content;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
   color: var(--blue);
   font-family: inherit;
-  font-size: clamp(1.75rem, 6.5vw, 2.25rem);
+  font-size: min(0.625rem, 1.6vw);
   font-weight: 400;
   font-style: normal;
   letter-spacing: normal;
-  line-height: 1.1;
+  line-height: 1;
 }
-.name a { color: inherit; text-decoration: none; }
+.name a { display: block; color: inherit; text-decoration: none; }
+.ascii-name { display: block; white-space: pre; text-align: left; font-kerning: none; }
+.visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }
 
 .dateline {
   display: flex;

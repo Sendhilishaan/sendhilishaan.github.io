@@ -12,6 +12,8 @@ A small static personal website. Plain HTML and CSS; the only browser JavaScript
 - `styles.css`: layout and colors (`--blue` controls the heading color).
 - `clock.js`: date and time in `America/Toronto`, including daylight saving time.
 
+The name is static ASCII text in each page header, with preserved whitespace and a screen-reader text equivalent. It uses the Crawford2 FIGlet style (Rowan Crawford; FIGlet conversion by Kent Nassen; Crawford2 update by PAT or JK), from https://github.com/xero/figlet-fonts/blob/main/Crawford2.flf. No font library or extra browser script is required.
+
 ## Preview
 
 Open `index.html` directly, or use Node.js 18+:
