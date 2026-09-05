@@ -5,7 +5,7 @@ A small static personal website. Plain HTML and CSS; the only browser JavaScript
 ## Edit
 
 - `index.html`: name and contact links.
-- `about/index.html`: replace “More soon.” with your bio.
+- `about/index.html`: your bio.
 - `projects/index.html`: replace “More soon.” with your projects.
 - `photos/index.html`: add your photos.
 - `music/index.html`: add your music.
