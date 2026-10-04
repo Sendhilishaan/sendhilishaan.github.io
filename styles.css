@@ -31,6 +31,7 @@ body { margin: 0; }
   margin: 0 auto;
   padding: var(--header-offset) 0 4rem;
 }
+.photos-page { width: min(31.5rem, 88.5vw); }
 
 .masthead {
   position: sticky;
@@ -130,6 +131,17 @@ a:focus-visible { outline: 2px solid var(--blue); outline-offset: 4px; }
 .content { margin-top: 3.5rem; font-size: 1rem; line-height: 1.7; }
 .content h1 { margin: 0 0 1rem; color: var(--blue); font-size: 1rem; font-weight: normal; }
 .content p { margin: 0 0 1.5rem; }
+.photo-gallery {
+  display: grid;
+  width: 92%;
+  gap: 1rem;
+  margin: 1rem auto 0;
+}
+.photo-gallery img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 .back { display: inline-block; margin-top: 1.5rem; font-size: 0.875rem; }
 ::selection { background: var(--selection); color: var(--selection-ink); }
 
